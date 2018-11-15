@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Data Gem Portfolio Project"
-date:       2018-11-15 20:58:13 +0000
+date:       2018-11-15 15:58:14 -0500
 permalink:  cli_data_gem_portfolio_project
 ---
 
@@ -82,4 +82,8 @@ ZIP Code: 92688
 ZIP + 4:  9997
 ```
 
+All standardized addresses created are saved only for that session (does not persist and gets lost when the program gets terminated) until I utilize databases. I can also extend the program and add more features such as ZIP code/city/state lookup and package tracking to build a more complete shipping tool/utility.
+
 Doing this project was fun and has taught me a lot. It helped me better understand some topics I was confused about and wrap up everything I have learned so far from the curriculum. I used Pry extensively to look into methods and variables to make sure they are returning the correct values and [repl.it](https://repl.it) to experiment with and test ideas I had in mind.
+
+
