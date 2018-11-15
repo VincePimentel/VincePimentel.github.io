@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Hello Flatiron!"
-date:       2018-11-15 20:56:33 +0000
+date:       2018-11-02 14:55:58 -0400
 permalink:  hello_flatiron
 ---
 
