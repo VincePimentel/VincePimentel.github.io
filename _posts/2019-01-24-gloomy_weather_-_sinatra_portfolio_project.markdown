@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Gloomy Weather - Sinatra Portfolio Project"
-date:       2019-01-24 05:12:35 +0000
+date:       2019-01-24 00:12:35 -0500
 permalink:  gloomy_weather_-_sinatra_portfolio_project
 ---
 
@@ -120,6 +120,12 @@ Under the username input field, I have written the following to display only mes
 #### Javascript
 
 I also had to write some basic scripts to allow the user play, pause and adjust the volume of the sounds.
+
+#### Bootstrap, FontAwesome and Material.io
+
+For everything that you see, I have used [Bootstrap](https://getbootstrap.com/), [FontAwesome](https://fontawesome.com/) and [Material.io](https://material.io/) to make it a lot prettier than what I could make by myself!
+
+
 
 Thank you for reading!
 
