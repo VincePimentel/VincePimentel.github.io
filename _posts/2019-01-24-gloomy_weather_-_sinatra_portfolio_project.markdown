@@ -91,7 +91,7 @@ post "/users" do
 end
 ```
 
-If `@user.valid?` then they'll be redirected to their own page. If not then pass `@user` to the registration form.
+If `@user.valid?`, as in it meets the requirements I have set (`presence: true` of and `length { minimum: 3}`) then their data was valid and was successfully entered into the database. They will then be redirected to their own page. If not then pass the `@user` instance to the registration form.
 
 ### Views
 
