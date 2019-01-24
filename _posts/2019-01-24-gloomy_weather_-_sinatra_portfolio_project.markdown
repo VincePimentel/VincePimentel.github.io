@@ -104,11 +104,9 @@ Under the username input field, I have written the following to display only mes
 ```
 <div class="invalid-feedback alert alert-danger" role="alert">
 
-  <% @user.errors.full_messages.each do |message| %>
-	
-    <% next if !message.downcase.include?("username") %>
+  <% @user.errors[:username].each do |message| %>
 		
-        • <%= message %>.<br>
+    • <%= message %>.<br>
 				
   <% end %>
 
