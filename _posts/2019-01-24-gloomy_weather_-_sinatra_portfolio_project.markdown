@@ -123,7 +123,9 @@ I also had to write some basic scripts to allow the user to interact with the pl
 
 For everything that you see, I have used [Bootstrap](https://getbootstrap.com/), [FontAwesome](https://fontawesome.com/) and [Material.io](https://material.io/) to make it a lot prettier than what I could make by myself!
 
+#### GitHub
 
+Check out my repo [here](https://github.com/VincePimentel/gloomy-weather).
 
 Thank you for reading!
 
