@@ -7,11 +7,13 @@ permalink:  gloomy_weather_-_sinatra_portfolio_project
 
 Whenever I need to focus, relax and/or block out my noisy neighbor, I usually open up a website or app that generates ambient background noise. There's just this calm and soothing feeling listening to raindrops hitting the roof or ground, and thunder roaring so I thought to myself, why not create my own version?
 
+**Gloomy Weather** generates background ambient sounds ranging from soothing rain, rumbling and crashing thunder, moving train, chirping birds, waves by the beach and many more. You can mix and match various sounds and audio levels to get the ideal combination to help you relax, sleep, focus or just to drown out bothersome noise from your environment.
+
 ### Demo and Repo
 
-Check out the demo [https://gloomy-weather.herokuapp.com](https://gloomy-weather.herokuapp.com).
+Check out the demo: [https://gloomy-weather.herokuapp.com](https://gloomy-weather.herokuapp.com).
 
-Check out the repo [https://github.com/VincePimentel/gloomy-weather](https://github.com/VincePimentel/gloomy-weather).
+Check out the repo: [https://github.com/VincePimentel/gloomy-weather](https://github.com/VincePimentel/gloomy-weather).
 
 ## Front-End
 
@@ -32,10 +34,10 @@ Right click: decrease volume
 ### Presets
 ![](https://i.imgur.com/cLr836K.png)
 
-Presets are saved combination of elements and volume levels by a user. Being a registered user allows you to save, edit and delete your own presets for later listening. It also allows you to view, listen and copy presets made by other users.
+You can mix and match various elements and audio levels to get the ideal combination to help you relax, sleep, focus or just to drown out bothersome noise from your environment and save them as presets for later listening.
 
 ## Back-End
-### Models and Association
+### MODELS AND ASSOCIATIONS
 
 ![](https://i.imgur.com/wY0hKjJ.png)
 
@@ -73,7 +75,7 @@ user.errors.full_messages
  
 This can then be used in the controllers and views to validate data and display error messages easily and dynamically.
 
-### Controllers and Routes
+### CONTROLLERS AND ROUTES
 
 ### Users Controller
 
@@ -95,7 +97,7 @@ end
 
 If `@user.valid?`, as in it meets the requirements I have set (`presence: true` and `length { minimum: 3}`), then their data was valid and was successfully entered into the database. They will then be redirected to their own page. If not, then pass the `@user` instance to the registration form.
 
-### Views
+### VIEWS
 
 ### Registration
 
@@ -117,6 +119,8 @@ Under the username input field, I have written the following to display only mes
 
 ![](https://i.imgur.com/1BRTnEA.png)
 
+### RESOURCES
+
 ### Javascript
 
 I also had to write some basic scripts to allow the user to interact with the play, pause, reset buttons and adjust the volume of each of the elements.
@@ -125,6 +129,6 @@ I also had to write some basic scripts to allow the user to interact with the pl
 
 For everything that you see, I have used [Bootstrap](https://getbootstrap.com/) and [FontAwesome](https://fontawesome.com/) to make it a lot prettier than what I could make by myself! Most of the sounds came from [Freesound](https://freesound.org/).
 
-Thank you for reading!
+Thank you for reading and I hope this app can be of use for you one day!
 
 
