@@ -7,6 +7,14 @@ permalink:  gloomy_weather_-_sinatra_portfolio_project
 
 Whenever I need to focus, relax and/or block out my noisy neighbor, I usually open up a website or app that generates ambient background noise. There's just this calm and soothing feeling listening to raindrops hitting the roof or ground, and thunder roaring so I thought to myself, why not create my own version?
 
+
+#### GitHub and Demo
+
+Check out the demo [here](https://gloomy-weather.herokuapp.com).
+
+Check out my repo [here](https://github.com/VincePimentel/gloomy-weather).
+
+
 ## Front-End
 
 
@@ -122,10 +130,6 @@ I also had to write some basic scripts to allow the user to interact with the pl
 #### Bootstrap, FontAwesome and Material.io
 
 For everything that you see, I have used [Bootstrap](https://getbootstrap.com/), [FontAwesome](https://fontawesome.com/) and [Material.io](https://material.io/) to make it a lot prettier than what I could make by myself!
-
-#### GitHub
-
-Check out my repo [here](https://github.com/VincePimentel/gloomy-weather).
 
 Thank you for reading!
 
