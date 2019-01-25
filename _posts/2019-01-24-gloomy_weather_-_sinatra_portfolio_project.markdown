@@ -9,9 +9,9 @@ Whenever I need to focus, relax and/or block out my noisy neighbor, I usually op
 
 ### Demo and Repo
 
-Check out the demo [here](https://gloomy-weather.herokuapp.com).
+Check out the demo [](https://gloomy-weather.herokuapp.com).
 
-Check out the repo [here](https://github.com/VincePimentel/gloomy-weather).
+Check out the repo [](https://github.com/VincePimentel/gloomy-weather).
 
 ## Front-End
 
