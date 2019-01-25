@@ -8,7 +8,7 @@ permalink:  gloomy_weather_-_sinatra_portfolio_project
 Whenever I need to focus, relax and/or block out my noisy neighbor, I usually open up a website or app that generates ambient background noise. There's just this calm and soothing feeling listening to raindrops hitting the roof or ground, and thunder roaring so I thought to myself, why not create my own version?
 
 
-#### Demo and Repo
+### Demo and Repo
 
 Check out the demo [here](https://gloomy-weather.herokuapp.com).
 
@@ -81,7 +81,7 @@ This can then be used in the controllers and views to validate data and display 
 
 ### Controllers and Routes
 
-#### Users Controller
+### Users Controller
 
 Continuing from above, my POST /users route (after submitting in the registration page) looks like this:
 
@@ -103,7 +103,7 @@ If `@user.valid?`, as in it meets the requirements I have set (`presence: true` 
 
 ### Views
 
-#### Registration
+### Registration
 
 Still with our "DJ" example from above, I can then display the errors on the registration page by iterating through the array given by the `error.full_messages` methods.
 
@@ -123,11 +123,11 @@ Under the username input field, I have written the following to display only mes
 
 ![](https://i.imgur.com/1BRTnEA.png)
 
-#### Javascript
+### Javascript
 
 I also had to write some basic scripts to allow the user to interact with the play, pause, reset buttons and adjust the volume of each of the elements.
 
-#### Bootstrap, FontAwesome and Material.io
+### Bootstrap, FontAwesome and Material.io
 
 For everything that you see, I have used [Bootstrap](https://getbootstrap.com/), [FontAwesome](https://fontawesome.com/) and [Material.io](https://material.io/) to make it a lot prettier than what I could make by myself!
 
