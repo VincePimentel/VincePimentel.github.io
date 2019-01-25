@@ -123,7 +123,7 @@ I also had to write some basic scripts to allow the user to interact with the pl
 
 ### Bootstrap, FontAwesome and Material.io
 
-For everything that you see, I have used [Bootstrap](https://getbootstrap.com/), [FontAwesome](https://fontawesome.com/) and [Material.io](https://material.io/) to make it a lot prettier than what I could make by myself!
+For everything that you see, I have used [Bootstrap](https://getbootstrap.com/) and [FontAwesome](https://fontawesome.com/) to make it a lot prettier than what I could make by myself! Most of the sounds came from [Freesound](https://freesound.org/).
 
 Thank you for reading!
 
