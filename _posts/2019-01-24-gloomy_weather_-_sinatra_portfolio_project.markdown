@@ -154,7 +154,7 @@ Under the username input field, I have written the following to display only mes
 
 I also had to write some basic scripts to allow the user to interact with the play, pause, reset buttons and adjust the volume of each of the elements.
 
-### Bootstrap, FontAwesome and Material.io
+### Bootstrap and FontAwesome
 
 For everything that you see, I have used [Bootstrap](https://getbootstrap.com/) and [FontAwesome](https://fontawesome.com/) to make it a lot prettier than what I could make by myself! Most of the sounds came from [Freesound](https://freesound.org/).
 
