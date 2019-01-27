@@ -45,7 +45,36 @@ The app has two models - User and Preset.
 * A user has many presets
 * User has a username and password
 * A preset belongs to a user
-* Preset has a title, description, user_id and elements with integer values (volume level)
+* Preset has a title, description, user_id and elements with integer values which are essentially their volume levels
+
+```
+ActiveRecord::Schema.define(version: 2019_01_16_002015) do
+
+  create_table "presets", force: :cascade do |t|
+    t.integer "user_id"
+    t.string "title", default: ""
+    t.string "description", default: ""
+    t.integer "rain", default: 0
+    t.integer "thunder", default: 0
+    t.integer "beach", default: 0
+    t.integer "river", default: 0
+    t.integer "garden", default: 0
+    t.integer "fire", default: 0
+    t.integer "bird", default: 0
+    t.integer "night", default: 0
+    t.integer "train", default: 0
+    t.integer "cafe", default: 0
+    t.integer "womb", default: 0
+    t.integer "brown", default: 0
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username"
+    t.string "password_digest"
+  end
+
+end
+```
 
 Since users will be registering, logging in and be allowed to later change their username and/or password, I need to set up my User model to help with validations. It would also be helpful to show feedback to the user when something goes wrong when trying to register or edit their account information. So I will need to set limitations on how short a username or password would be and such.
 
